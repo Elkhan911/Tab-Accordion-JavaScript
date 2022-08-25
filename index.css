@@ -1,0 +1,27 @@
+.task {
+  width: 1200px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid saddlebrown;
+}
+
+.tabs__menu {
+  width: 80%;
+  margin: auto;
+  border: 1px solid blue;
+}
+
+.tabs__link {
+  display: block;
+  padding: 20px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.tabs__content {
+  display: none;
+}
+
+.tabs__content {
+  display: block;
+}
