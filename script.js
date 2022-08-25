@@ -9,8 +9,8 @@ const content3 = document.querySelector("#_content3");
 const content4 = document.querySelector("#_content4");
 
 link1.addEventListener("click", function () {
-  content1.classList.toggle("tabs__content_active");
-  link1.classList.toggle("tabs__link_active");
+  toggleClass(content1, "tabs__content_active");
+  toggleClass(link1, "tabs__link_active");
 
   content2.classList.remove("tabs__content_active");
   content3.classList.remove("tabs__content_active");
@@ -22,8 +22,8 @@ link1.addEventListener("click", function () {
 });
 
 link2.addEventListener("click", function () {
-  content2.classList.toggle("tabs__content_active");
-  link2.classList.toggle("tabs__link_active");
+  toggleClass(content2, "tabs__content_active");
+  toggleClass(link2, "tabs__link_active");
 
   content1.classList.remove("tabs__content_active");
   content3.classList.remove("tabs__content_active");
@@ -35,8 +35,8 @@ link2.addEventListener("click", function () {
 });
 
 link3.addEventListener("click", function () {
-  content3.classList.toggle("tabs__content_active");
-  link3.classList.toggle("tabs__link_active");
+  toggleClass(content3, "tabs__content_active");
+  toggleClass(content3, "tabs__link_active");
 
   content1.classList.remove("tabs__content_active");
   content2.classList.remove("tabs__content_active");
@@ -48,8 +48,8 @@ link3.addEventListener("click", function () {
 });
 
 link4.addEventListener("click", function () {
-  content4.classList.toggle("tabs__content_active");
-  link4.classList.toggle("tabs__link_active");
+  toggleClass(content4, "tabs__content_active");
+  toggleClass(content4, "tabs__link_active");
 
   content1.classList.remove("tabs__content_active");
   content2.classList.remove("tabs__content_active");
@@ -59,3 +59,7 @@ link4.addEventListener("click", function () {
   link2.classList.remove("tabs__link_active");
   link3.classList.remove("tabs__link_active");
 });
+
+function toggleClass(elem, newClass) {
+  elem.classList.toggle(newClass);
+}
