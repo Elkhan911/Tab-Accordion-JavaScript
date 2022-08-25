@@ -1,13 +1,13 @@
 .task {
   width: 1200px;
   text-align: center;
-  margin: auto;
+  margin: 50px auto;
   border: 1px solid saddlebrown;
 }
 
 .tabs__menu {
   width: 80%;
-  margin: auto;
+  margin: 0 auto 20px;
   border: 1px solid blue;
 }
 
@@ -16,6 +16,7 @@
   padding: 20px;
   margin-top: 10px;
   border: 1px solid black;
+  font-size: 18px;
 }
 
 .tabs__link_active {
@@ -29,4 +30,14 @@
 
 .tabs__content_active {
   display: block;
+}
+
+.tabs___image {
+  width: 40%;
+  display: block;
+  margin: 20px auto;
+}
+
+.tabs___text {
+  font-size: 20px;
 }
