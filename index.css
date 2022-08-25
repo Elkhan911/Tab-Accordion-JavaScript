@@ -18,10 +18,15 @@
   border: 1px solid black;
 }
 
+.tabs__link_active {
+  border: 1px solid green;
+  background-color: cornsilk;
+}
+
 .tabs__content {
   display: none;
 }
 
-.tabs__content {
+.tabs__content_active {
   display: block;
 }
