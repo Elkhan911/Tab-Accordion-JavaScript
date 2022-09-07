@@ -1,9 +1,17 @@
-.task {
+.section {
   width: 1200px;
   text-align: center;
   margin: 50px auto 0;
   padding-bottom: 50px;
   border: 1px solid saddlebrown;
+}
+
+.section__header {
+  font-size: 40px;
+}
+
+.tabs__header {
+  font-size: 30px;
 }
 
 .tabs__menu {
